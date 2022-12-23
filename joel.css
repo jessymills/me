@@ -1,0 +1,88 @@
+#joel {
+    text-align: center;
+    font-size: 500px;
+    padding: 100px;
+    font-weight: bold;
+    background: url(images/joel.jpeg) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Set basic font and layout styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  #nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  /* Style the image carousel */
+  #carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  #carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 1s;
+  }
+  
+  #carousel img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style the pages */
+  .page {
+    display: none;
+    padding: 20px;
+  }
+  
+  .page h1 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+  }
+  
+  .page p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Show the correct page based on the URL hash */
+  .page#home {
+    display: block;
+  }
+  
+  .page#about {
+    display: block;
+  }
+  
+  .page#projects {
+    display: block;
+  }
+  
+  .page#contact {
+    display: block;
+  }  
