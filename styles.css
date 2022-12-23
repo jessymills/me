@@ -1,0 +1,22 @@
+#my-name {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    font-family: 'Rubik Puddles';
+    font-size: 100px;
+}
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+.carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    height: auto;
+}
