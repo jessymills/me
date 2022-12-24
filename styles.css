@@ -14,8 +14,6 @@ body {
 
 }
 
-.crop-img
-
 footer {
     text-align: center;
 }
@@ -47,6 +45,13 @@ footer {
     padding-right: 70px;
     padding-bottom: 10px;
     padding-top: 10px;
-    color: aliceblue;
     font-family: Pacifico;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: darkgray;
 }
