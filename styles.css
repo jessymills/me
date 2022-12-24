@@ -1,27 +1,40 @@
-#my-name {
-    text-align: right;
-    padding-right: 100px;
-    font-family: 'Calistoga';
-    font-size: 150px;
+body {
+    background-image: linear-gradient(to right, rgb(3, 1, 12), rgb(38, 7, 53));
+}
+
+.card-footer {
+    text-align: center;
 }
 
 .carousel {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60%;
-    height: auto;
+    margin-top: -500px;
+    margin-left: 700px;
+    margin-right: 100px;
+
 }
 
-.nav-item {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+.crop-img
+
+footer {
+    text-align: center;
+}
+
+.left-text {
     color: aliceblue;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Pacifico;
+    margin-left: 150px;
+    margin-top: 200px;
 }
 
-.link-primary {
+#my-name {
+    margin-left: 100px;
+    padding-right: 100px;
+    font-family: 'Calistoga';
+    font-size: 50px;
+    text-shadow: 50px;
     color: aliceblue;
 }
 
@@ -29,10 +42,11 @@
     margin-bottom: 50px;
 }
 
-footer {
-    text-align: center;
-}
-
-.card-footer {
-    text-align: center;
+.nav-item {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: Pacifico;
 }

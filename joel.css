@@ -16,7 +16,7 @@ body {
     padding: 0;
   }
   
-  #nav {
+#nav {
     background-color: #333;
     color: white;
     display: flex;
@@ -25,64 +25,64 @@ body {
     height: 50px;
   }
   
-  #nav a {
+#nav a {
     color: white;
     text-decoration: none;
   }
   
-  #main {
+#main {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
   }
   
   /* Style the image carousel */
-  #carousel {
+#carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
   }
   
-  #carousel img {
+#carousel img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     transition: transform 1s;
   }
   
-  #carousel img:hover {
+#carousel img:hover {
     transform: scale(1.1);
   }
   
   /* Style the pages */
-  .page {
+.page {
     display: none;
     padding: 20px;
   }
   
-  .page h1 {
+.page h1 {
     font-size: 32px;
     margin: 0 0 20px 0;
   }
   
-  .page p {
+.page p {
     font-size: 16px;
     line-height: 1.5;
   }
   
   /* Show the correct page based on the URL hash */
-  .page#home {
+.page#home {
     display: block;
   }
   
-  .page#about {
+.page#about {
     display: block;
   }
   
-  .page#projects {
+.page#projects {
     display: block;
   }
   
-  .page#contact {
+.page#contact {
     display: block;
   }  
