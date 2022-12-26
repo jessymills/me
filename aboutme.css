@@ -1,0 +1,54 @@
+#left-nav-bar {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-nav-item {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  list-style: none;
+  font-family: 'Pacifico';
+}
+
+.left-nav-link {
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.left-nav-link:hover {
+  color: gray;
+}
+
+#my-name-about-me {
+  margin-left: 10px;
+  padding-right: 100px;
+  font-family: 'Calistoga';
+  font-size: 50px;
+  text-shadow: 50px;
+  color: aliceblue;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+
+
+.glitch-container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+}
+
+.dud {
+  color: #757575;
+}
