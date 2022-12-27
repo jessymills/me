@@ -8,10 +8,12 @@ body {
 
 .carousel {
     display: block;
-    margin-top: -500px;
-    margin-left: 700px;
-    margin-right: 100px;
-
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: auto;
+    margin-left: 600px;
 }
 
 footer {
@@ -24,11 +26,13 @@ footer {
     font-weight: bold;
     font-family: Pacifico;
     margin-left: 150px;
-    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #my-name {
-    margin-left: 100px;
+    margin-left: 10px;
     padding-right: 100px;
     font-family: 'Calistoga';
     font-size: 50px;
@@ -37,7 +41,16 @@ footer {
 }
 
 #navbar {
+    margin-top: 10px;
     margin-bottom: 50px;
+}
+
+.nav-link-dd {
+    color: black;
+}
+
+.nav-link-dd:hover {
+    color: gray;
 }
 
 .nav-item {
@@ -54,4 +67,8 @@ footer {
 
 .nav-link:hover {
     color: darkgray;
+}
+
+.nav-link:focus {
+    color: gray;
 }
